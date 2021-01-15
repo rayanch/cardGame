@@ -55,12 +55,13 @@ void gameStart() {
 
 	int cash = 100;
 
-	cout << "Your Cash Available : " << cash << "$" << endl;
-
-	cout << "J For Jack, Q for Queen, K for King "<< endl;
 
 	while(true) {
 
+		system("clear");
+		cout << "Your Cash Available : " << cash << "$" << endl;
+
+		cout << "J For Jack, Q for Queen, K for King "<< endl;
 		cout << "Which Card Do You Wanna Guess Its Position: ";
 
 		char card;
